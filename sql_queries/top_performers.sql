@@ -1,4 +1,4 @@
--- 2. Revenue by Product Category
+-- Revenue by Product Category
 SELECT 
     ProductName, 
     SUM(TransactionAmount) AS TotalRevenue
