@@ -1,4 +1,4 @@
--- 7. Drill-down: Top Selling Products per Region
+Drill-down: Top Selling Products per Region
 SELECT 
     Region, 
     ProductName, 
