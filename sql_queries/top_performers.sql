@@ -22,3 +22,12 @@ SELECT
 FROM sales_data
 GROUP BY Month
 ORDER BY Month;
+
+-- 5. High-Value Customers (Top 10 Customers by Revenue)
+SELECT 
+    CustomerID, 
+    SUM(TransactionAmount) AS TotalSpent
+FROM sales_data
+GROUP BY CustomerID
+ORDER BY TotalSpent DESC
+LIMIT 10;
