@@ -16,14 +16,14 @@ This project analyzes a sales dataset to extract key insights, including revenue
 ## Repository Structure
 ```
 /sales-analysis
-│── README.md                # Summary of insights and usage instructions
+│── README.md                
 │── sql_queries/
-│   ├── revenue_trends.sql   # Queries related to overall revenue trends
-│   ├── top_performers.sql   # Queries for identifying top categories/regions/customers
-│   ├── anomalies.sql        # Queries to detect anomalies or patterns
-│   ├── drill_down.sql       # Drill-down analysis for top products/customers
+│   ├── revenue_trends.sql   
+│   ├── top_performers.sql   
+│   ├── anomalies.sql        
+│   ├── drill_down.sql       
 │── data/
-│   ├── sample_data.csv      # Sample dataset for reference (optional)
+│   ├── sample_data.csv      
 ```
 
 ## How to Use
